@@ -1,0 +1,112 @@
+/*   Syles General Empieza */
+html{
+     font-family: 'Hedvig Letters Serif', serif;
+
+}
+
+body{
+/*/*	color de fondo */
+     background: rgb(38,108,22);
+     background: linear-gradient(90deg, rgba(38,108,22,1) 0%, rgba(79,255,5,1) 100%, rgba(0,212,255,1) 100%);	
+     
+/*      texto centrado   */
+     text-align: center;
+     margin: 0 auto;
+}
+
+.wrapper{
+     width: 75%;
+     margin: 0 auto;
+}
+
+h1{
+     font-size: 64px;
+ 
+
+}
+
+h2{
+     font-size: 42px;
+
+}
+
+p, a{
+     font-size: 20px;
+
+}
+
+h1, h2, p, a{
+     color: black;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+nav{
+/*   background-color: orange;*/
+     width: 100%;
+     padding: 25px 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a {
+     text-decoration: none;
+     color: black;
+     background-color: beige;
+     transition-duration:  .5s;
+     padding: 10px 15px;
+     border-radius: 90px;
+     border: 3px solid orange;
+     text-transform: uppercase;
+}
+
+nav a:hover{
+     background-color: lightyellow;
+     transition-duration:  .5s;
+     border: 3px solid yellow;
+}
+
+#acerca-de-mi .image-container{
+     width: 65%;
+     margin: 0 auto;
+}
+
+img{
+     width: 100%;
+
+}
+#mis-photos{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+
+#photo1, #photo2, #photo3, #photo4{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     margin: 50px 0;
+}    
+
+
+#mis-photos .image-container{
+     width: 100%;
+     /* min-width: 70%; */
+}
+
+#mis-photos div p{
+     margin: 30px auto;
+     padding:  50px;
+     background-color: beige;
+}
